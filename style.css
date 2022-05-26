@@ -2,7 +2,96 @@
     box-sizing: 0;
 }
 
-html, body {
+body {
     margin: 0;
     padding: 0;
+    background: #111827;
 }
+
+
+/*===============
+    Typography
+================*/
+select {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111827;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+section {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #2b283a;
+    text-align: center;
+}
+
+
+
+/*============
+    Layout
+==============*/
+.main-container {
+    background: #ffffff;
+    margin: 25px;
+    border-radius: 6px;
+}
+
+header {
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
+    padding: 25px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+#color {
+    border: 0.5px solid #313131;
+    width: 51px;
+    height: 38px;
+    margin-top: 3px;
+    padding: 0px;    
+}
+
+#color-schemes {
+    background: #ffffff;
+    color: #111827;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);    
+    width: 312px;
+}
+
+button {
+    background: #ffffff;
+    color: #374151;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    padding: 13px 11px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.scheme-colors {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hex-values {
+    display: flex;
+    justify-content: space-around;
+}
+
+
