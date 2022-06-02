@@ -7,7 +7,7 @@ const hexValues = document.getElementById("hex-values")
 
 
 
-// get new color sheme button action
+// get new color scheme button action
 btnGetColor.addEventListener('click', (e)=> {
     e.preventDefault
     colorSection.innerHTML = ""
